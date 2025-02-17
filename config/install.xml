@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+
+    <blocktypes>
+        <blocktype package="vivid_carousel" handle="vivid_carousel" />
+    </blocktypes>
+
+    <blocktypesets>
+        <blocktypeset handle="multimedia" name="Multimedia" package="vivid_carousel">
+            <blocktype handle="vivid_carousel" />
+        </blocktypeset>
+    </blocktypesets>
+
+</concrete5-cif>
