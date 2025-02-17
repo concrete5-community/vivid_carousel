@@ -1,0 +1,41 @@
+{
+    "name": "concrete5-community/vivid_carousel",
+    "description": "Simple block for ConcreteCMS/concrete5 that adds a carousel to your site",
+    "type": "concrete5-package",
+    "keywords": [
+        "concretecms",
+        "concrete",
+        "cms",
+        "concrete5",
+        "package",
+        "addon",
+        "image",
+        "carousel"
+    ],
+    "homepage": "https://github.com/concrete5-community/vivid_carousel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Grissinger",
+            "email": "brucewyne@gmail.com",
+            "role": "original author"
+        },
+        {
+            "name": "Michele Locati",
+            "email": "michele@locati.it",
+            "role": "maintainer",
+            "homepage": "https://mlocati.github.io"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/concrete5-community/vivid_carousel/issues",
+        "source": "https://github.com/concrete5-community/vivid_carousel"
+    },
+    "require": {
+        "concrete5/core": "^8.5.2 || ^9"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
